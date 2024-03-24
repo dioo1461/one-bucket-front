@@ -1,0 +1,23 @@
+{
+  "name": "one_bucket",
+  "version": "1.0.0",
+  "description": "one bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dioo1461/one-bucket-front.git"
+  },
+  "keywords": [
+    "one",
+    "bucket"
+  ],
+  "author": "dioo1461",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dioo1461/one-bucket-front/issues"
+  },
+  "homepage": "https://github.com/dioo1461/one-bucket-front#readme"
+}
