@@ -7,17 +7,15 @@ import App from './App';
 import {name as appName} from './app.json';
 
 import React from 'react';
-import {AppRegistry} from 'react-native';
 import {ThemeProvider} from 'styled-components';
 import theme from 'styles/theme';
-import Navigator from './Navigator';
 
 const ProvidedNavigator = () => {
   return (
     <ThemeProvider theme={{...theme}}>
-      <Navigator />
+      <App />
     </ThemeProvider>
   );
 };
 
-AppRegistry.registerComponent(appName, () => ProvidedNavigator);
+AppRegistry.registerComponent(appName, () => App);
